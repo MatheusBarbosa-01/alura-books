@@ -1,8 +1,9 @@
 import Header from './components/Header';
+import Search from './components/Search';
 import styled from 'styled-components';
 
-const AppConteiner = styled.div`
 
+const AppConteiner = styled.div`
   font-family: arial;
   width: 100vw;
   height: 100vh;
@@ -13,6 +14,7 @@ function App() {
   return (
     <AppConteiner>
       <Header/>
+      <Search/>
     </AppConteiner>
   );
 }
